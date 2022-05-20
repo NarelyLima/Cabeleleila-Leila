@@ -1,0 +1,629 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		450F77E4282EA411002C8395 /* Lista.swift in Sources */ = {isa = PBXBuildFile; fileRef = 450F77E3282EA411002C8395 /* Lista.swift */; };
+		451B052C282D407300F3644E /* Cabeleleila_LeilaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 451B052B282D407300F3644E /* Cabeleleila_LeilaApp.swift */; };
+		451B052E282D407300F3644E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 451B052D282D407300F3644E /* ContentView.swift */; };
+		451B0530282D407400F3644E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 451B052F282D407400F3644E /* Assets.xcassets */; };
+		451B0535282D407400F3644E /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 451B0534282D407400F3644E /* Persistence.swift */; };
+		451B0538282D407400F3644E /* Cabeleleila_Leila.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 451B0536282D407400F3644E /* Cabeleleila_Leila.xcdatamodeld */; };
+		451B0542282D407400F3644E /* Cabeleleila_LeilaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 451B0541282D407400F3644E /* Cabeleleila_LeilaTests.swift */; };
+		451B054C282D407400F3644E /* Cabeleleila_LeilaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 451B054B282D407400F3644E /* Cabeleleila_LeilaUITests.swift */; };
+		451B054E282D407400F3644E /* Cabeleleila_LeilaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 451B054D282D407400F3644E /* Cabeleleila_LeilaUITestsLaunchTests.swift */; };
+		451BF40D28351CF200A30655 /* ListaData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 451BF40C28351CF200A30655 /* ListaData.swift */; };
+		451BF411283528C900A30655 /* Visualizacao.swift in Sources */ = {isa = PBXBuildFile; fileRef = 451BF410283528C900A30655 /* Visualizacao.swift */; };
+		452AFBE72832979F00D88C09 /* PassoAPassoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 452AFBE62832979F00D88C09 /* PassoAPassoView.swift */; };
+		452AFBEB28329ADB00D88C09 /* GoalsDay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 452AFBEA28329ADB00D88C09 /* GoalsDay.swift */; };
+		45DBD4EC2833C39500328DE5 /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45DBD4EB2833C39500328DE5 /* CalendarView.swift */; };
+		45DBD4EE2833D1E900328DE5 /* MeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45DBD4ED2833D1E900328DE5 /* MeView.swift */; };
+		45DBD4F02833D88400328DE5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 45DBD4EF2833D88400328DE5 /* GoogleService-Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		451B053E282D407400F3644E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 451B0520282D407300F3644E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 451B0527282D407300F3644E;
+			remoteInfo = "Cabeleleila Leila";
+		};
+		451B0548282D407400F3644E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 451B0520282D407300F3644E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 451B0527282D407300F3644E;
+			remoteInfo = "Cabeleleila Leila";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		450F77E3282EA411002C8395 /* Lista.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lista.swift; sourceTree = "<group>"; };
+		451B0528282D407300F3644E /* Cabeleleila Leila.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cabeleleila Leila.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		451B052B282D407300F3644E /* Cabeleleila_LeilaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cabeleleila_LeilaApp.swift; sourceTree = "<group>"; };
+		451B052D282D407300F3644E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		451B052F282D407400F3644E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		451B0534282D407400F3644E /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		451B0537282D407400F3644E /* Cabeleleila_Leila.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Cabeleleila_Leila.xcdatamodel; sourceTree = "<group>"; };
+		451B053D282D407400F3644E /* Cabeleleila LeilaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cabeleleila LeilaTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		451B0541282D407400F3644E /* Cabeleleila_LeilaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cabeleleila_LeilaTests.swift; sourceTree = "<group>"; };
+		451B0547282D407400F3644E /* Cabeleleila LeilaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cabeleleila LeilaUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		451B054B282D407400F3644E /* Cabeleleila_LeilaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cabeleleila_LeilaUITests.swift; sourceTree = "<group>"; };
+		451B054D282D407400F3644E /* Cabeleleila_LeilaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cabeleleila_LeilaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		451BF40C28351CF200A30655 /* ListaData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListaData.swift; sourceTree = "<group>"; };
+		451BF410283528C900A30655 /* Visualizacao.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Visualizacao.swift; sourceTree = "<group>"; };
+		452AFBE62832979F00D88C09 /* PassoAPassoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassoAPassoView.swift; sourceTree = "<group>"; };
+		452AFBEA28329ADB00D88C09 /* GoalsDay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalsDay.swift; sourceTree = "<group>"; };
+		45DBD4EB2833C39500328DE5 /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
+		45DBD4ED2833D1E900328DE5 /* MeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeView.swift; sourceTree = "<group>"; };
+		45DBD4EF2833D88400328DE5 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		451B0525282D407300F3644E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		451B053A282D407400F3644E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		451B0544282D407400F3644E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		451B051F282D407300F3644E = {
+			isa = PBXGroup;
+			children = (
+				451B052A282D407300F3644E /* Cabeleleila Leila */,
+				451B0540282D407400F3644E /* Cabeleleila LeilaTests */,
+				451B054A282D407400F3644E /* Cabeleleila LeilaUITests */,
+				451B0529282D407300F3644E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		451B0529282D407300F3644E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				451B0528282D407300F3644E /* Cabeleleila Leila.app */,
+				451B053D282D407400F3644E /* Cabeleleila LeilaTests.xctest */,
+				451B0547282D407400F3644E /* Cabeleleila LeilaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		451B052A282D407300F3644E /* Cabeleleila Leila */ = {
+			isa = PBXGroup;
+			children = (
+				451B052B282D407300F3644E /* Cabeleleila_LeilaApp.swift */,
+				452AFBEA28329ADB00D88C09 /* GoalsDay.swift */,
+				451B052D282D407300F3644E /* ContentView.swift */,
+				450F77E3282EA411002C8395 /* Lista.swift */,
+				451B052F282D407400F3644E /* Assets.xcassets */,
+				451BF40C28351CF200A30655 /* ListaData.swift */,
+				45DBD4ED2833D1E900328DE5 /* MeView.swift */,
+				451BF410283528C900A30655 /* Visualizacao.swift */,
+				45DBD4EB2833C39500328DE5 /* CalendarView.swift */,
+				452AFBE62832979F00D88C09 /* PassoAPassoView.swift */,
+				451B0534282D407400F3644E /* Persistence.swift */,
+				451B0536282D407400F3644E /* Cabeleleila_Leila.xcdatamodeld */,
+				45DBD4EF2833D88400328DE5 /* GoogleService-Info.plist */,
+			);
+			path = "Cabeleleila Leila";
+			sourceTree = "<group>";
+		};
+		451B0540282D407400F3644E /* Cabeleleila LeilaTests */ = {
+			isa = PBXGroup;
+			children = (
+				451B0541282D407400F3644E /* Cabeleleila_LeilaTests.swift */,
+			);
+			path = "Cabeleleila LeilaTests";
+			sourceTree = "<group>";
+		};
+		451B054A282D407400F3644E /* Cabeleleila LeilaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				451B054B282D407400F3644E /* Cabeleleila_LeilaUITests.swift */,
+				451B054D282D407400F3644E /* Cabeleleila_LeilaUITestsLaunchTests.swift */,
+			);
+			path = "Cabeleleila LeilaUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		451B0527282D407300F3644E /* Cabeleleila Leila */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 451B0551282D407400F3644E /* Build configuration list for PBXNativeTarget "Cabeleleila Leila" */;
+			buildPhases = (
+				451B0524282D407300F3644E /* Sources */,
+				451B0525282D407300F3644E /* Frameworks */,
+				451B0526282D407300F3644E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Cabeleleila Leila";
+			productName = "Cabeleleila Leila";
+			productReference = 451B0528282D407300F3644E /* Cabeleleila Leila.app */;
+			productType = "com.apple.product-type.application";
+		};
+		451B053C282D407400F3644E /* Cabeleleila LeilaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 451B0554282D407400F3644E /* Build configuration list for PBXNativeTarget "Cabeleleila LeilaTests" */;
+			buildPhases = (
+				451B0539282D407400F3644E /* Sources */,
+				451B053A282D407400F3644E /* Frameworks */,
+				451B053B282D407400F3644E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				451B053F282D407400F3644E /* PBXTargetDependency */,
+			);
+			name = "Cabeleleila LeilaTests";
+			productName = "Cabeleleila LeilaTests";
+			productReference = 451B053D282D407400F3644E /* Cabeleleila LeilaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		451B0546282D407400F3644E /* Cabeleleila LeilaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 451B0557282D407400F3644E /* Build configuration list for PBXNativeTarget "Cabeleleila LeilaUITests" */;
+			buildPhases = (
+				451B0543282D407400F3644E /* Sources */,
+				451B0544282D407400F3644E /* Frameworks */,
+				451B0545282D407400F3644E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				451B0549282D407400F3644E /* PBXTargetDependency */,
+			);
+			name = "Cabeleleila LeilaUITests";
+			productName = "Cabeleleila LeilaUITests";
+			productReference = 451B0547282D407400F3644E /* Cabeleleila LeilaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		451B0520282D407300F3644E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					451B0527282D407300F3644E = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+					451B053C282D407400F3644E = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = 451B0527282D407300F3644E;
+					};
+					451B0546282D407400F3644E = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = 451B0527282D407300F3644E;
+					};
+				};
+			};
+			buildConfigurationList = 451B0523282D407300F3644E /* Build configuration list for PBXProject "Cabeleleila Leila" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 451B051F282D407300F3644E;
+			productRefGroup = 451B0529282D407300F3644E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				451B0527282D407300F3644E /* Cabeleleila Leila */,
+				451B053C282D407400F3644E /* Cabeleleila LeilaTests */,
+				451B0546282D407400F3644E /* Cabeleleila LeilaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		451B0526282D407300F3644E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				451B0530282D407400F3644E /* Assets.xcassets in Resources */,
+				45DBD4F02833D88400328DE5 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		451B053B282D407400F3644E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		451B0545282D407400F3644E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		451B0524282D407300F3644E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				451B0535282D407400F3644E /* Persistence.swift in Sources */,
+				451B052E282D407300F3644E /* ContentView.swift in Sources */,
+				45DBD4EE2833D1E900328DE5 /* MeView.swift in Sources */,
+				451BF40D28351CF200A30655 /* ListaData.swift in Sources */,
+				45DBD4EC2833C39500328DE5 /* CalendarView.swift in Sources */,
+				452AFBEB28329ADB00D88C09 /* GoalsDay.swift in Sources */,
+				451B052C282D407300F3644E /* Cabeleleila_LeilaApp.swift in Sources */,
+				451B0538282D407400F3644E /* Cabeleleila_Leila.xcdatamodeld in Sources */,
+				452AFBE72832979F00D88C09 /* PassoAPassoView.swift in Sources */,
+				451BF411283528C900A30655 /* Visualizacao.swift in Sources */,
+				450F77E4282EA411002C8395 /* Lista.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		451B0539282D407400F3644E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				451B0542282D407400F3644E /* Cabeleleila_LeilaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		451B0543282D407400F3644E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				451B054E282D407400F3644E /* Cabeleleila_LeilaUITestsLaunchTests.swift in Sources */,
+				451B054C282D407400F3644E /* Cabeleleila_LeilaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		451B053F282D407400F3644E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 451B0527282D407300F3644E /* Cabeleleila Leila */;
+			targetProxy = 451B053E282D407400F3644E /* PBXContainerItemProxy */;
+		};
+		451B0549282D407400F3644E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 451B0527282D407300F3644E /* Cabeleleila Leila */;
+			targetProxy = 451B0548282D407400F3644E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		451B054F282D407400F3644E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		451B0550282D407400F3644E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		451B0552282D407400F3644E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Cabeleleila Leila/Preview Content\"";
+				DEVELOPMENT_TEAM = U2M84KZ35U;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Narely.Cabeleleila-Leila";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		451B0553282D407400F3644E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Cabeleleila Leila/Preview Content\"";
+				DEVELOPMENT_TEAM = U2M84KZ35U;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Narely.Cabeleleila-Leila";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		451B0555282D407400F3644E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U2M84KZ35U;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Narely.Cabeleleila-LeilaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cabeleleila Leila.app/Cabeleleila Leila";
+			};
+			name = Debug;
+		};
+		451B0556282D407400F3644E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U2M84KZ35U;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Narely.Cabeleleila-LeilaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cabeleleila Leila.app/Cabeleleila Leila";
+			};
+			name = Release;
+		};
+		451B0558282D407400F3644E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U2M84KZ35U;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Narely.Cabeleleila-LeilaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Cabeleleila Leila";
+			};
+			name = Debug;
+		};
+		451B0559282D407400F3644E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U2M84KZ35U;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Narely.Cabeleleila-LeilaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Cabeleleila Leila";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		451B0523282D407300F3644E /* Build configuration list for PBXProject "Cabeleleila Leila" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				451B054F282D407400F3644E /* Debug */,
+				451B0550282D407400F3644E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		451B0551282D407400F3644E /* Build configuration list for PBXNativeTarget "Cabeleleila Leila" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				451B0552282D407400F3644E /* Debug */,
+				451B0553282D407400F3644E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		451B0554282D407400F3644E /* Build configuration list for PBXNativeTarget "Cabeleleila LeilaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				451B0555282D407400F3644E /* Debug */,
+				451B0556282D407400F3644E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		451B0557282D407400F3644E /* Build configuration list for PBXNativeTarget "Cabeleleila LeilaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				451B0558282D407400F3644E /* Debug */,
+				451B0559282D407400F3644E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		451B0536282D407400F3644E /* Cabeleleila_Leila.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				451B0537282D407400F3644E /* Cabeleleila_Leila.xcdatamodel */,
+			);
+			currentVersion = 451B0537282D407400F3644E /* Cabeleleila_Leila.xcdatamodel */;
+			path = Cabeleleila_Leila.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 451B0520282D407300F3644E /* Project object */;
+}
